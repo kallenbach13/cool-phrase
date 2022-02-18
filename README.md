@@ -4,4 +4,4 @@
 
 <br>
 
-<p>This is a scientifically researched algorithm. Every sentence here said, in real life, is guaranteed to make you look and feel cooler.</p>
+<p>This is a scientifically researched algorithm. Every sentence generated here, when said in real life, is guaranteed to make you look and feel cooler.</p>
