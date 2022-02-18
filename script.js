@@ -12,7 +12,11 @@ const CoolPhrase = () => {
     let randomNoun = coolWords.noun[Math.floor(Math.random() * coolWords.noun.length)];
     let randomPunct = coolWords.punct[Math.floor(Math.random() * coolWords.punct.length)];
     
-    return `${randomVerb} ${randomAdj}, ${randomNoun}${randomPunct}`;
+    let randomCoolPhrase = `${randomVerb} ${randomAdj}, ${randomNoun}${randomPunct}`;
+
+    console.log(randomCoolPhrase);
+
+    return randomCoolPhrase;
 };
 
-CoolPhrase()
+CoolPhrase();
