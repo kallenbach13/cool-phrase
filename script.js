@@ -1,7 +1,7 @@
 const coolWords = {
     verb: ["Feeling'", "Lookin'", "Smellin'", "Vibin'", "Ridin'", "Vapin'", "Sizzlin'", "Smokin'", "That's"],
     adj: ["hard", "sweet", "high", "tubular", "bossanova", "jazzy", "wicked", "sick", "slick", "sour", "rad"],
-    noun: ["my guy", "lady", "dude", "bro", "sis", "cuz", "fam", "buddy", "bub", "gal", "pup", "baby", "sweetums"],
+    noun: ["my guy", "lady", "dude", "bro", "sis", "cuz", "fam", "buddy", "bub", "gal", "pup", "baby", "sweetums", "cat"],
     punct: ["?", "!", ".", "!?", "!!!", "..."]
 };
 
