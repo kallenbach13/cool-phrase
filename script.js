@@ -14,7 +14,5 @@ const coolPhraseGenerator = () => {
     
     let randomCoolPhrase = `${randomVerb} ${randomAdj}, ${randomNoun}${randomPunct}`;
 
-    document.getElementById("cool-phrase").innerHTML = randomCoolPhrase
+    document.getElementById("cool-phrase").innerHTML = randomCoolPhrase;
 };
-
-coolPhraseGenerator();
