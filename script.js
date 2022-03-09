@@ -6,7 +6,7 @@ const coolWords = {
 };
 
 
-const CoolPhrase = () => {
+const coolPhraseGenerator = () => {
     let randomVerb = coolWords.verb[Math.floor(Math.random() * coolWords.verb.length)];
     let randomAdj = coolWords.adj[Math.floor(Math.random() * coolWords.adj.length)];
     let randomNoun = coolWords.noun[Math.floor(Math.random() * coolWords.noun.length)];
@@ -14,9 +14,7 @@ const CoolPhrase = () => {
     
     let randomCoolPhrase = `${randomVerb} ${randomAdj}, ${randomNoun}${randomPunct}`;
 
-    console.log(randomCoolPhrase);
-
-    return randomCoolPhrase;
+    document.getElementById("cool-phrase").innerHTML = randomCoolPhrase
 };
 
-CoolPhrase();
+coolPhraseGenerator();
