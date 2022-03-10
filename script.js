@@ -16,3 +16,6 @@ const coolPhraseGenerator = () => {
 
     document.getElementById("cool-phrase").innerHTML = randomCoolPhrase;
 };
+
+const coolButton = document.getElementById("cool-button");
+coolButton.addEventListener('click', coolPhraseGenerator);
